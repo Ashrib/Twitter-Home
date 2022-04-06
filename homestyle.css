@@ -1,0 +1,356 @@
+body
+{
+    margin: 0%;
+    padding: 0%;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: calc(100vh);
+    background-color:white ;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 100%;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 100px;
+    border-right: 1px solid rgb(233, 232, 232);
+}
+.bird{
+    display:block;
+    height: 40px;
+    width: 40px;
+    margin-top: 10px;
+    
+    padding-bottom: 20px;
+    font-size: 2em;
+    text-align: center;
+    color: #469aee;
+    border-radius: 100%;
+    
+}
+.bird:hover{
+    background-color: #d7f3f8;
+}
+.text{
+    margin-left: 10px;
+}
+.pages{
+    display: flex;
+    height: 50px;
+    width: auto;
+    margin-top: 5px;
+    border-radius:30px;
+    font-size: 1.4em;
+    padding: 10px;
+    padding-left: 20px;
+    text-align:left;
+    background-color: white;
+}
+div[class~=home]{
+    font-weight: 700;
+}
+.pages:hover{
+    background-color: rgb(205, 205, 206);
+}
+.tweet{
+    margin-top: 10px;
+    background-color: #20a3e0;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 45px;
+}
+.tweet:hover{
+    background-color: #1474d4;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    height: 100%;
+    background-color: white;
+    
+}
+.fix{
+    display: flex;
+    position:fixed ;
+    top: 0%;
+    width: inherit;
+    height: 50px;
+    font-size: 1.3em;
+    font-weight: 600;
+    padding: 10px;
+    background-color: white;
+}
+.write{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+    padding-top: 10px;
+    height: 210px;
+    width: 100%;
+    background-color: white;
+}
+.write .img{
+    display: flex;
+    height: auto;
+    width: 100%;
+    margin-left: 20px;
+}
+.write #inputlg{
+    border: none;
+    box-shadow: none;
+    width: 500px;
+    
+}
+.everyone{
+    display: flex;
+    width: 160px;
+    margin: 5px 0px 0px 70px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 30px;
+    font-weight: 600;
+    justify-content: center;
+    color: #20a3e0;
+}
+.everyone i{
+    padding-top: 3px;
+    padding-right: 5px;
+}
+.everyone:hover{
+    background-color: #d7f3f8;
+}
+.attach{
+    display: flex;
+    height: 60px;
+    margin: 10px 20px 0px 70px;
+    font-weight: 600;
+    border-top: 1px solid rgb(233, 232, 232);
+    background-color: white;
+    font-size: 1.3em;
+}
+.attach button{
+    height: 40px;
+    border-radius: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    margin-left: 240px;
+    font-weight: 600;
+}
+.tools{
+    border-radius: 100%;
+    background-color: white;
+    margin: 15px 0px 10px 0px;
+    padding-top: 5px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+.tools:hover{
+    background-color: #d7f3f8;
+}
+.attach a{
+    text-decoration: none;
+    color: #20a3e0;
+}
+.showtweets{
+    display: flex;
+    height: 50px;
+    border-top: 1px solid rgb(233, 232, 232);
+    border-bottom: 1px solid rgb(233, 232, 232);
+    justify-content: center;
+    align-items: center;
+    color: #20a3e0;
+    font-size: 1.2em;
+}
+.showtweets:hover{
+    background-color:rgb(241, 241, 241) ;
+}
+.write a{
+    text-decoration: none;
+}
+.bitcoin{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    border-top: 1px solid rgb(233, 232, 232);
+    border-bottom: 1px solid rgb(233, 232, 232);
+
+}
+.bitcoin:hover{
+    background-color:rgb(241, 241, 241) ;
+}
+.bitcoin .img{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-image: url(https://pbs.twimg.com/profile_images/1444022922377576453/AzvXYXGr_400x400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.name{
+    
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.username{
+    margin-left: 5px;
+    margin-top: 12px;
+    color: gray;
+}
+.cap{
+    margin-left: 70px;
+}
+.d{
+  display:flex;  
+  flex-direction: row;
+}
+.bitcoin img{
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+.post:hover{
+    background-color:rgb(241, 241, 241) ;
+}
+.post .ms{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-image: url(https://pbs.twimg.com/profile_images/1454912483248930822/_hO4WPRC_400x400.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.react{
+    display: flex;
+    width: inherit;
+    height: auto;
+    background-color:white;
+}
+
+.react a{
+    text-decoration: none;
+    color: rgb(51, 49, 49);
+}
+.like{
+    border-radius: 100%;
+    background-color: white;
+    margin: 0px 0px 10px 70px;
+    padding-top: 5px;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+}
+.like:hover{
+    background-color: #d7f3f8;
+    color: #20a3e0;
+}
+div[class~=r]{
+    margin-right: 80px;
+}
+div[class~=g]:hover{
+    background-color: rgb(199, 247, 199);
+    color: rgb(0, 128, 43);
+}
+div[class~=r]:hover{
+    background-color: rgb(247, 199, 207);
+    color: rgb(212, 14, 47);
+}
+.yt{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-image: url(https://pbs.twimg.com/profile_images/1442546093875630088/qOKkSb2Q_400x400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.cba{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-image: url(https://pbs.twimg.com/profile_images/1423980036722462722/lTDmaGZe_400x400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.sm{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    border-radius: 100%;
+    background-image: url(https://pbs.twimg.com/profile_images/789480724256722944/2RrMwrFG_400x400.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tick{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin-left: 5px;
+    margin-top: 15px;
+    font-size: 0.8em;
+    border-radius: 100%;
+    text-align: center;
+    background-color: #1474d4;
+    color: white;
+}
+/* .right{
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+    height: 100%;
+    background-color: rgb(206, 182, 231);
+    
+} */
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    .left{
+        padding-left: 10px;
+    }
+    .pages{
+        border-radius: 100%;
+        width: 50px;
+        
+    }
+    .text{
+        display: none;
+    }
+    .tweet{
+        display: none;
+    }
+    
+}
